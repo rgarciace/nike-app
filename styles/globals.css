@@ -1,9 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --color-black-1: #1d1c1a;
+  --color-gray-1: #353535;
+  --color-gray-2: #333333;
+  --color-white-1: #f7f7f7;
+  --color-first: #fb50b4;
+  --color-second: #8536fd;
+  --color-third: #5bd0df;
+  --font-first: 'Quicksand', sans-serif;
+  --font-second: "Oswald", sans-serif;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background: linear-gradient(90deg, var(--color-gray-1) 0%, var(--color-black-1) 100%);
+  color: var(--color-white-1);
+  font-family: var(--font-first);
 }
 
 a {
@@ -15,7 +30,7 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
@@ -23,4 +38,4 @@ a {
     color: white;
     background: black;
   }
-}
+} */
