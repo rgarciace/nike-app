@@ -8,7 +8,7 @@
   --color-first: #fb50b4;
   --color-second: #8536fd;
   --color-third: #5bd0df;
-  --font-first: 'Quicksand', sans-serif;
+  --font-first: "Quicksand", sans-serif;
   --font-second: "Oswald", sans-serif;
 }
 
@@ -16,7 +16,11 @@ html,
 body {
   padding: 0;
   margin: 0;
-  background: linear-gradient(90deg, var(--color-gray-1) 0%, var(--color-black-1) 100%);
+  background: linear-gradient(
+    90deg,
+    var(--color-gray-1) 0%,
+    var(--color-black-1) 100%
+  );
   color: var(--color-white-1);
   font-family: var(--font-first);
 }

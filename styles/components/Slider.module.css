@@ -1,0 +1,13 @@
+.slider {
+  position: relative;
+  width: min(1360px, 100%);
+  padding: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+.image {
+  transform: rotate(-20deg);
+  -webkit-filter: drop-shadow(5px 15px 15px rgba(0,0,0,.7));
+  filter: drop-shadow(5px 15px 15px rgba(0,0,0,.7));
+}
