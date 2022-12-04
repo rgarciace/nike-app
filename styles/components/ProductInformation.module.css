@@ -1,0 +1,27 @@
+.title {
+  font-family: var(--font-second);
+  font-weight: normal;
+  font-size: 4em;
+  line-height: 1;
+  margin: 0;
+}
+.description {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.description .iconReadMore {
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  animation: pulse-animation 1s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0 var(--color-third);
+  }
+  100% {
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0);
+  }
+}

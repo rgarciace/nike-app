@@ -8,7 +8,7 @@ const Header = () => {
     <div className={styles.container}>
       <Image className={styles.logo} src={logo} alt="Logo Nike" width={80} />
       <Navigation />
-      <Keyframes width={40} height={40} color="#5bd0df"/>
+      <Keyframes width={40} height={40} color="#00A1EC"/>
     </div>
   );
 };

@@ -1,13 +1,21 @@
 .slider {
   position: relative;
   width: min(1360px, 100%);
+  height: calc(100vh - 100px);
   padding: 50px;
   margin: auto;
   display: flex;
   justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
 .image {
-  transform: rotate(-20deg);
-  -webkit-filter: drop-shadow(5px 15px 15px rgba(0,0,0,.7));
-  filter: drop-shadow(5px 15px 15px rgba(0,0,0,.7));
+  transform: rotate(10deg);
+  -webkit-filter: drop-shadow(5px 15px 15px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(5px 15px 15px rgba(0, 0, 0, 0.7));
+  width: 50%;
+  height: auto;
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
 }
